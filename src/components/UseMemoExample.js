@@ -40,9 +40,9 @@ function UseMemoExample() {
 
 function getSqrt(n) {
     for (let i = 0; i <= 10000; i++) {
-
+        console.log(i);
     }
-
+    console.log('Expensive Function Called');
     return Math.sqrt(n)
 }
 
